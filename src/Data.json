@@ -1,0 +1,29 @@
+{
+  "company" : [
+    {
+      "id": 1,
+      "name": "digitalside",
+      "image": "digitalside"
+    },
+    {
+      "id": 2,
+      "name": "fuzionage",
+      "image": "fuzion"
+    },
+    {
+      "id": 3,
+      "name": "mediafury",
+      "image": "mediaFury"
+    },
+    {
+      "id": 4,
+      "name": "travelExplorer",
+    "image": "travelExplorer"
+    },
+    {
+      "id": 5,
+      "name": "vortex",
+      "image": "vortex"
+    }
+  ]
+}
