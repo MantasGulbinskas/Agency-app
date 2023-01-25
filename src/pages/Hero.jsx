@@ -9,8 +9,8 @@ import {PrimaryDarkIcon} from "../components/buttons/PrimaryDarkIcon";
 export const Hero = () => {
     return(
         <>
-            <HeroSection className='flex justify-between'>
-                <div >
+            <HeroSection className='flex justify-between max-sm:flex-col'>
+                <div>
                     <H5>modern studio</H5>
                     <H1>We’re Help
                         To Build Your
@@ -28,8 +28,8 @@ export const Hero = () => {
                     <div className='flex items-end'>
                     <PrimaryDarkIcon img={bitmap}/>
 
-                    <MetaDescription>"Put themselves in the merchant's shoes" <MetaParagraph>Meta Inc.</MetaParagraph></MetaDescription>
-
+                    <MetaDescription>"Put themselves in the merchant's shoes"</MetaDescription>
+                        <MetaParagraph>Meta Inc.</MetaParagraph>
                     </div>
                 </div>
 
@@ -102,7 +102,7 @@ const MetaDescription = styled.p`
   line-height: 32px;
   color: rgba(255, 255, 255, 0.64);
 `
-const MetaParagraph = styled.p`
+const MetaParagraph = styled.span`
   font-style: normal;
   font-weight: 400;
   font-size: 16px;

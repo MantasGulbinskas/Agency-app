@@ -13,7 +13,7 @@ const Icon = styled.p`
   height: 48px;
   background: #B550F8;
   border-radius: 24px;
-    `
+`
 
 const Images = styled.img`
 position: absolute;

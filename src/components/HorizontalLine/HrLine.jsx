@@ -1,7 +1,11 @@
 import React from "react";
+import styled from "styled-components";
 
-export const BrLine = () => {
+export const HrLine = () => {
     return (
-        <hr className="h-0 5 bg-primary md:w-4/12 w-4/12 mas-sm:w-8/12 m-auto" />
+        <HorizontalLine className='h-1  mx-[135px]' />
     )
 }
+const HorizontalLine = styled.hr`
+background: #F3D1BF;
+`

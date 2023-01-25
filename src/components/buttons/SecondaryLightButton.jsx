@@ -6,7 +6,7 @@ export const SecondaryLightButton = (props) => {
 }
 
 const Button = styled.button`
-  width: 170px;
+  width: 138px;
   height: 48px;
   font-style: normal;
   font-weight: 900;
@@ -19,4 +19,4 @@ const Button = styled.button`
   border-radius: 6px;
   border: none;
   color: #391400;
-    `
+`

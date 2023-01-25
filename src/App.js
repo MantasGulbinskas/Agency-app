@@ -2,15 +2,17 @@ import './App.css';
 import Header from "./pages/Header";
 import {Hero} from "./pages/Hero";
 import styled from "styled-components";
+import {SectionAbout} from "./pages/SectionAbout";
 
 
 function App() {
   return (
   <>
-    <Container>
+    <Container >
 <Header />
   <Hero />
     </Container>
+  <SectionAbout />
   </>
   );
 }

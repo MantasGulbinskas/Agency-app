@@ -9,12 +9,12 @@ export const PrimaryLightButton = (props) => {
 }
 
 const Button = styled.button`
-    width: 170px;
-    height: 48px;
-    border-radius: 6px;
+  width: 154px;
+  height: 48px;
+  border-radius: 6px;
   border: none;
-    background: #EF6D58;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background: #EF6D58;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   font-style: normal;
   font-weight: 900;
   font-size: 14px;
